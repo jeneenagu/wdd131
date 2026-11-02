@@ -47,8 +47,9 @@ nav ul li {
     flex: 1 0 auto;
 }
 
-nav a: hover {
+nav a:hover {
     text-decoration: underline;
+    colour: #e0e0be;
 }
 
 main {
