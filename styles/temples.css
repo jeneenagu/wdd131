@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Delius", cursive;
+    color: #444;
+    background-color: white;
+    line-height: 1.7;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #e0e0be;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+figure {
+    display: grid;
+}
