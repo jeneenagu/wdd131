@@ -43,6 +43,7 @@ header p {
 .navigation a:active {
     color: antiquewhite;
     background-color: rgb(153, 96, 207);
+    text-decoration: underline;
 }
 
 .navigation {
@@ -70,9 +71,9 @@ header p {
     text-decoration: none;
 }
 
-nav a:hover {
-    text-decoration: underline;
-    color: rgb(153, 96, 207);
+nav ul {
+    display: flex;
+    list-style-type: none;
 }
 
 main {
