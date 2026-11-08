@@ -1,0 +1,25 @@
+@media screen and (min-width: 800px) {
+    main {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        gap: 20px;
+    }
+
+    .navigation li {
+        display: block;
+    }
+
+    h1 {
+        grid-column: 1 / 4;
+    }
+}
