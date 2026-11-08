@@ -41,7 +41,7 @@ header p {
 
 .navigation a:hover,
 .navigation a:active {
-    color: white;
+    color: antiquewhite;
     background-color: rgb(153, 96, 207);
 }
 
@@ -72,7 +72,7 @@ header p {
 
 nav a:hover {
     text-decoration: underline;
-    color: blueviolet;
+    color: rgb(153, 96, 207);
 }
 
 main {
@@ -106,7 +106,7 @@ figure img {
 figcaption {
     text-align: center;
     font-size: 30px;
-    color: #444;
+    color: #a4218a;
     margin-top: 5px;
 }
 
