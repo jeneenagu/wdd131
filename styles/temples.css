@@ -42,7 +42,7 @@ header p {
 .navigation a:hover,
 .navigation a:active {
     color: white;
-    background-color: blueviolet;
+    background-color: rgb(153, 96, 207);
 }
 
 .navigation {
@@ -65,16 +65,9 @@ header p {
     content: "X";
 }
 
-nav a {
+.navigation a {
     color: antiquewhite;
     text-decoration: none;
-}
-
-nav ul {
-    display: flex;
-    list-style-type: none;
-    justify-content: space-around;
-    align-items: center;
 }
 
 nav a:hover {
