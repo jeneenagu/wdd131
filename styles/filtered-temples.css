@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Delius", cursive;
+    color: #a4218a;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #a4218a;
+    color: antiquewhite;
+    font-size: 1.5rem;
+    padding: 20px;
+}
+
+header p {
+    font-weight: bold;
+}
+
+#menu {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: antiquewhite;
+    padding: 0.25rem;
+}
+
+#menu::before {
+    content: "≡";
+}
+
+.navigation a:hover,
+.navigation a:active {
+    color: antiquewhite;
+    background-color: rgb(153, 96, 207);
+    text-decoration: underline;
+}
+
+.navigation {
+    display: none;
+    flex-direction: column;
+    list-style: none;
+    width: 100%;
+}
+
+.navigation.show {
+    display: flex;
+}
+
+.navigation li {
+    display: block;
+    text-align: center;
+}
+
+#menu.open::before {
+    content: "X";
+}
+
+.navigation a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+main {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 20px 0;
+}
+
+#temples {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.temple-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    background-color: white;
+    position: relative;
+}
+
+.temple-card img {
+    display: block;
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    margin: 10px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.temple-card h2 {
+    font-size: 1.3rem;
+}
+
+.temple-info {
+    position: static;
+    width: 100%;
+    padding: 10px;
+}
+
+.temple-card p {
+    margin: 8px 0;
+}
+
+footer {
+    text-align: center;
+    background-color: #a4218a;
+    color: antiquewhite;
+    padding: 10px;
+    margin-top: 40px;
+}

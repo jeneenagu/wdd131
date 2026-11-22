@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Album</title>
+    <meta name="description"
+        content="WDD 131 - Dynamic Web Fundamentals. Temple Album for Esther Enagu-Okpa, featuring images of temples.">
+    <meta name="author" content="Esther Enagu-Okpa">
+    <link rel="stylesheet" href="styles/filtered-temples.css">
+    <link rel="stylesheet" href="styles/filtered-temples-large.css">
+    <script src="scripts/filtered-temples.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <p>Temple Album</p>
+        <a id="menu" href="#" aria-label="Open navigation menu"></a>
+        <nav>
+            <ul class="navigation">
+                <li id="home"><a href="#">Home</a></li>
+                <li id="old"><a href="#">Old</a></li>
+                <li id="new"><a href="#">New</a></li>
+                <li id="large"><a href="#">Large</a></li>
+                <li id="small"><a href="#">Small</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Home</h1>
+        <div id="temples"></div>
+    </main>
+    <footer>
+        <p>© <span id="currentyear"></span> | Esther Enagu-Okpa | Nigeria</p>
+        <p>Last modified: <span id="lastModified"></span></p>
+    </footer>
+</body>
+
+</html>
