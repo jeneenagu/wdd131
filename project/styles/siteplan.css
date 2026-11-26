@@ -1,7 +1,7 @@
 :root {
     --primary-color: #553477;
     --background-color: #E8EAED;
-    --secondary-color: #C8E4F2;
+    --secondary-color: #8CBFD6;
     --text-color: #34313A;
 }
 
@@ -64,7 +64,7 @@ h2{
     color: var(--text-color);
 }
 
-.icy-blue {
+.frosted-blue {
     background-color: var(--secondary-color);
     color: var(--text-color);
 }
